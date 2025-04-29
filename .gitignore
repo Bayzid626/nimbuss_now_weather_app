@@ -1,7 +1,47 @@
+# Flutter related
 build/
 .dart_tool/
 .flutter-plugins
+.flutter-plugins-dependencies
 .packages
 pubspec.lock
-*.iml
+
+# IDEs
 .idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code (optional: uncomment if you want to ignore)
+#.vscode/
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.pub-cache/
+.pub/
+
+# Symbolication and Obfuscation
+app.*.symbols
+app.*.map.json
+
+# Android Studio
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# FVM Version Cache
+.fvm/
+
